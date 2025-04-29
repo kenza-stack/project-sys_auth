@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #292929;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #f25454;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #292929;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #292929;
+    color: #fff;
+    box-shadow: none;
+    border-color: #f25454;
+}
+
+.btn-custom {
+    background-color: #f25454;
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e04a4a;
+}
+.nav-link {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f25454;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f25454 !important;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+#navbarnav{
+        position: relative;
+        display: inline-block;
+}
+
+.list-none {
+        display: none;
+        position: absolute;
+        background-color: #282828;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px;
+        list-style: none;
+}
+#Categorie:hover .list-none {
+        display: block;
+}
+.catg{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    list-style: none;
+}
+.catg:hover{
+    text-decoration: underline;
+    color: red;
+}
+footer {
+    background-color: #292929;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
